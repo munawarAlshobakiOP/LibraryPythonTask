@@ -3,7 +3,8 @@ uvicorn[standard]
 sqlalchemy
 python-multipart
 pydantic
+pydantic-settings
 psycopg2-binary
 python-dotenv
 alembic
-enum34
+psycopg2

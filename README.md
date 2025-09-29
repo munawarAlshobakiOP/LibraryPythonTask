@@ -39,9 +39,6 @@ A comprehensive REST API for managing library operations built with FastAPI and 
    ```bash
    uvicorn main:app --reload
    ```
-
-
-
 ## API Endpoints
 
 ### Books
