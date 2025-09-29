@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+python-multipart
+pydantic
+psycopg2-binary
+python-dotenv
+alembic
+enum34
