@@ -4,6 +4,7 @@ from sqlalchemy.dialects.postgresql import UUID
 from Database.Base import Base
 from management.shared.enums import BorrowStatus
 from sqlalchemy import Enum as SqlEnum
+
 class Library(Base):
     __tablename__ = "Library"
     Id: UUID=Column(UUID(as_uuid=True), primary_key=True, default=uuid4)

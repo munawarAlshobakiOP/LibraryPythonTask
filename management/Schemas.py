@@ -31,7 +31,7 @@ class Book(BookBase):
 
     class Config:
         form_attributes = True
-###########################################
+#################################################
 class MemberBase(BaseModel):
     name: str = Field(..., description="The name of the member")
     email: str = Field(..., description="The email address of the member")
@@ -44,7 +44,7 @@ class Member(MemberBase):
 
     class Config:
         form_attributes = True
-###########################################
+###############################################################
 class BorrowRecordBase(BaseModel):
     book_id: UUID = Field(..., description="book_id being borrowed")
     member_id: UUID = Field(..., description="member_id borrowing the book")
